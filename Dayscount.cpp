@@ -21,11 +21,18 @@ int main() {
         {
             colddays += 1;  
         }
-    }    
+    }   
+
+int sum=0;
+ for(int i=0;i<26;i++)
+ {
+    sum += arr[i];
+ }
+
 cout<<"Hot days: "<<hotdays<<endl;
 cout<<"Pleasant days: "<<pleasantdays<<endl;
-cout<<"Cold days: "<<colddays;
-    
+cout<<"Cold days: "<<colddays<<endl;
+cout<<"Avg temp: "<<sum/26;     
     return 0;
     
 }
